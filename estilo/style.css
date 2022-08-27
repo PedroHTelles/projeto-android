@@ -23,7 +23,7 @@
     --cor2: #16244e;
     --cor3: #0a1139;
     --cor4: #282a37;
-    --cor5: #e9e9e9;
+    --cor5: #c7c7c7;
     --cor6: #D0E6F1;
     --cor7 :#C5DCE8;
 
@@ -187,6 +187,8 @@ main aside{
     display: block;
     margin: 0 auto;
     padding: 15px;
+
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.212);
 }
 
 main aside h2{
