@@ -80,7 +80,53 @@ header > nav > a{
 }
 
 header a:hover{
-    background-image: linear-gradient(to right, var(--cor0), transparent);
+    animation-name: slide;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+
+    color: white;
+
+    background-color: #0a1139;
+
+    transition-delay: 2s;
+}
+
+@keyframes slide {
+    0%{
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+    }
+
+    10%{
+        background-color: #3c58f8;
+        color: rgb(29, 29, 29);
+    }
+
+    20%{
+        background-color: #2339b5;
+        color: rgb(39, 39, 39);
+    }
+
+    50%{
+        background-color: #18277e;
+        color: rgb(47, 47, 47);
+    }
+
+    60%{
+        background-color: #111d5f;
+        color: rgb(114, 114, 114);
+    }
+
+    70%{
+        background-color: #0a1139;
+        color: rgb(188, 188, 188);
+    }
+
+    100%{
+        background-color: #0a1139;
+        color: white;
+    }
 }
 
 main{
